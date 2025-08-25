@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Virtualenv
+shipping_env/
+env/
+
+# Django
+/staticfiles/
+/media/
+
+# IDE
+*.vscode/
+*.idea/

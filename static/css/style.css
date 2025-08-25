@@ -1,0 +1,76 @@
+/* static/css/style.css */
+.new-hero-section {
+    background-image: url('../images/hero_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+    background: transparent; /* Fully transparent */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+#logisticsCarousel .carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#aboutCarousel .carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#logisticsCarousel .carousel-item .col-md-4 {
+    padding: 5px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    #logisticsCarousel .carousel-item img {
+        height: 200px;
+    }
+    .new-hero-section {
+        min-height: 300px;
+    }
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+
+.service-img {
+  width: 400px;       /* fixed width */
+  height: 400px;      /* fixed height */
+  object-fit: cover;  /* crop to fit nicely */
+  border-radius: 10px; /* optional rounded corners */
+}
